@@ -42,6 +42,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.materialdesign.ui.components.CustomActionButton
 import com.example.materialdesign.ui.components.CustomBottomAppBar
+import com.example.materialdesign.ui.components.bottomAppBar.BottomAppBarExample
 import com.example.materialdesign.ui.components.button.CustomFilledButton
 import com.example.materialdesign.ui.components.button.CustomFilledTonalButton
 import com.example.materialdesign.ui.components.button.CustomOutinedButton
@@ -52,6 +53,7 @@ import com.example.materialdesign.ui.components.fab.CustomFABSmall
 import com.example.materialdesign.ui.components.topAppBar.CustomCenterAlignedTopAppBar
 import com.example.materialdesign.ui.components.topAppBar.SmallTopAppBar
 import com.example.materialdesign.ui.theme.MaterialDesignTheme
+import com.fatec.composeui.ui.components.card.PageCard
 
 
 class MainActivity : ComponentActivity() {
@@ -64,6 +66,9 @@ class MainActivity : ComponentActivity() {
         setContent {
             MaterialDesignTheme {
                 //FAB()
+                //PageCard()
+                //BottomWPBar
+                BottomAppBarExample()
 
             }
         }

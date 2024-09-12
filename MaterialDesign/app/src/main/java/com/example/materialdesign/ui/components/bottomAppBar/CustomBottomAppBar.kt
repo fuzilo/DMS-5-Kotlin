@@ -10,6 +10,7 @@ import androidx.compose.material.icons.filled.Edit
 
 import androidx.compose.material3.BottomAppBar
 import androidx.compose.material3.BottomAppBarDefaults
+import androidx.compose.material3.Card
 import androidx.compose.material3.FloatingActionButton
 import androidx.compose.material3.FloatingActionButtonDefaults
 import androidx.compose.material3.Icon
@@ -24,6 +25,7 @@ import androidx.compose.ui.Modifier
 @Composable
 fun BottomAppBarExample(){
     Scaffold (
+
         bottomBar = {
             BottomAppBar (
                 actions =  {
@@ -41,10 +43,11 @@ fun BottomAppBarExample(){
                             Icons.Filled.AccountBox,
                             contentDescription = "Localized description"
                         )
-                }
-                IconButton(onClick = { /*TODO*/ }) {
-                    Icon(Icons.Filled.AccountCircle,
-                        contentDescription = "Localized description"
+                    }
+                    IconButton(onClick = { /*TODO*/ }) {
+                    Icon(
+                            Icons.Filled.AccountCircle,
+                            contentDescription = "Localized description"
                     )
                 }
             },
